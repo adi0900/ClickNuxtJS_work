@@ -19,6 +19,9 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="modulepreload" as="script" crossorigin href="/_nuxt/entry.js">
         <link rel="preload" as="style" href="/_nuxt/entry.css">
+        <link rel="preload" as="style" href="/_nuxt/about.css">
+        <link rel="preload" as="style" href="/_nuxt/default.css">
+        <link rel="preload" as="style" href="/_nuxt/index.css">
         <link rel="modulepreload" as="script" crossorigin href="/_nuxt/default.js">
         <link rel="modulepreload" as="script" crossorigin href="/_nuxt/state.js">
         <link rel="modulepreload" as="script" crossorigin href="/_nuxt/menubackground.js">
@@ -32,13 +35,18 @@
         <link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/rotate-mobile.0561dc60.svg">
         <link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/cursor.5ff4b071.svg">
         <link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/savoir-faire-logo.a8b7c534.svg">
-        <link rel="prefetch" as="audio" href="/_nuxt/ClickSound.mp3">
+        <audio preload="auto" style="display:none;">
+            <source src="/ClickSound.mp3" type="audio/mpeg">
+        </audio>
         <link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/menu_background.29f59e8f.svg">
         <link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/star-white.93262632.svg">
         <link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/star-black.f0035203.svg">
         <link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/star-volt.3a608b5c.svg">
         <link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/star-gray.7b43bd16.svg">
         <link rel="stylesheet" href="/_nuxt/entry.css">
+        <link rel="stylesheet" href="/_nuxt/about.css">
+        <link rel="stylesheet" href="/_nuxt/default.css">
+        <link rel="stylesheet" href="/_nuxt/index.css">
         <style>
             .l__layout {
                 background-color: #000;
@@ -655,7 +663,7 @@
                     <img class="menu__star" src="/_nuxt/star-black.f0035203.svg" alt data-v-a3c343d6>
                 </a>
                 <audio id="menuHoverSound" data-v-a3c343d6>
-                    <source src="/_nuxt/ClickSound.mp3" type="audio/wav" data-v-a3c343d6>
+                    <source src="/ClickSound.mp3" type="audio/mpeg" data-v-a3c343d6>
                 </audio>
                 <audio id="menuClickSound" data-v-a3c343d6>
                     <source src="data:audio/mpeg;base64,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" type="audio/wav" data-v-a3c343d6>
@@ -760,7 +768,7 @@
             <!--]-->
         </div>
         <script>
-            window.__NUXT__ = (function(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p) {
+            window.__NUXT__ = (function(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p) {   (Make Changes Here)
                 return {
                     data: {
                         meta: {

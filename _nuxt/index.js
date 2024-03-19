@@ -1,9 +1,9 @@
 import {r as M, o as ie, a as se, c as le, b as ve, u as he, h as ye, v as ge, g as w, n as we, i as Ae, e as V, s as be, t as xe, k as Te, d as ke, m as Se, p as Ie, q as Me} from "./entry.js";
-import {M as Oe} from "./Marquee.79503d5b.js";
-import {_ as ue} from "./_plugin-vue_export-helper.9c4d1f6f.js";
+import {M as Oe} from "./marquee.js";
+import {_ as ue} from "./plugins.js";
 import {s as D} from "./state.js";
-import {f as Le, W as He} from "./stickerPhysics.ca2c1524.js";
-import {c as Z} from "./_commonjsHelpers.042e6b4d.js";
+import {f as Le, W as He} from "./stickerphysics.js";
+import {c as Z} from "./helpers.js";
 const H = "" + new URL("star-gray.7b43bd16.svg",import.meta.url).href;
 const Ee = ve('<div class="marquee--item" data-v-6157e01a><span class="text__span" data-v-6157e01a>Click Anywhere</span><span class="star__span" data-v-6157e01a><img src="' + H + '" data-v-6157e01a></span></div><div class="marquee--item" data-v-6157e01a><span class="text__span" data-v-6157e01a>Click Anywhere</span><span class="star__span" data-v-6157e01a><img src="' + H + '" data-v-6157e01a></span></div><div class="marquee--item" data-v-6157e01a><span class="text__span" data-v-6157e01a>Click Anywhere</span><span class="star__span" data-v-6157e01a><img src="' + H + '" data-v-6157e01a></span></div><div class="marquee--item" data-v-6157e01a><span class="text__span" data-v-6157e01a>Click Anywhere</span><span class="star__span" data-v-6157e01a><img src="' + H + '" data-v-6157e01a></span></div><div class="marquee--item" data-v-6157e01a><span class="text__span" data-v-6157e01a>Click Anywhere</span><span class="star__span" data-v-6157e01a><img src="' + H + '" data-v-6157e01a></span></div><div class="marquee--item" data-v-6157e01a><span class="text__span" data-v-6157e01a>Click Anywhere</span><span class="star__span" data-v-6157e01a><img src="' + H + '" data-v-6157e01a></span></div><div class="marquee--item" data-v-6157e01a><span class="text__span" data-v-6157e01a>Click Anywhere</span><span class="star__span" data-v-6157e01a><img src="' + H + '" data-v-6157e01a></span></div><div class="marquee--item" data-v-6157e01a><span class="text__span" data-v-6157e01a>Click Anywhere</span><span class="star__span" data-v-6157e01a><img src="' + H + '" data-v-6157e01a></span></div><div class="marquee--item" data-v-6157e01a><span class="text__span" data-v-6157e01a>Click Anywhere</span><span class="star__span" data-v-6157e01a><img src="' + H + '" data-v-6157e01a></span></div><div class="marquee--item" data-v-6157e01a><span class="text__span" data-v-6157e01a>Click Anywhere</span><span class="star__span" data-v-6157e01a><img src="' + H + '" data-v-6157e01a></span></div><div class="marquee--item" data-v-6157e01a><span class="text__span" data-v-6157e01a>Click Anywhere</span><span class="star__span" data-v-6157e01a><img src="' + H + '" data-v-6157e01a></span></div><div class="marquee--item" data-v-6157e01a><span class="text__span" data-v-6157e01a>Click Anywhere</span><span class="star__span" data-v-6157e01a><img src="' + H + '" data-v-6157e01a></span></div>', 12)
   , Pe = [Ee]
@@ -50,7 +50,7 @@ const Ee = ve('<div class="marquee--item" data-v-6157e01a><span class="text__spa
     }
 }
   , Ce = ue(Be, [["__scopeId", "data-v-6157e01a"]])
-  , qe = "" + globalThis.__publicAssetsURL("tracker.svg");
+  , qe = "" + globalThis.__publicAssetsURL("/tracker.svg");
 var z = {};
 /*!
  *  howler.js v2.2.4

@@ -7,9 +7,9 @@ var bf = (d,e,n)=>e in d ? Sf(d, e, {
 }) : d[e] = n;
 var Xt = (d,e,n)=>(bf(d, typeof e != "symbol" ? e + "" : e, n),
 n);
-import {g as sn} from "./entry.70905c58.js";
-import {c as Dr, g as Mf} from "./_commonjsHelpers.042e6b4d.js";
-import {m as wf} from "./_plugin-vue_export-helper.9c4d1f6f.js";
+import {g as sn} from "./entry.js";
+import {c as Dr, g as Mf} from "./helpers.js";
+import {m as wf} from "./plugins.js";
 const Tf = [{
     content: "SavoirFaire©",
     startTime: "2.170"
@@ -35395,7 +35395,7 @@ class e1 {
     }
     async setup() {
         this.doneLoading || await this.load(),
-        this.texture = await new Promise(s=>new Yu().load("./textures/env.jpg", s)),
+        this.texture = await new Promise(s=>new Yu().load("./env.jpg", s)),
         this.texture.mapping = Ns,
         this.isPaused = !1,
         this.screen = {

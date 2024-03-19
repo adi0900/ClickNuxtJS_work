@@ -1,4 +1,4 @@
-import {C as s} from "./entry.70905c58.js";
+import {C as s} from "./entry.js";
 function a(t, r) {
     return s()._useHead(t, r)
 }

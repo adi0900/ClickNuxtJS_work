@@ -1,4 +1,4 @@
-import {g as e} from "./entry.70905c58.js";
+import {g as e} from "./entry.js";
 function p(t, n, r) {
     return e.utils.interpolate(t, n, r)
 }
