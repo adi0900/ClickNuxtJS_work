@@ -1,4 +1,4 @@
-import {f as s, D as t} from "./entry.70905c58.js";
+import {f as s, D as t} from "./entry.js";
 const d = ()=>t("firstLoaded", ()=>!1)
   , i = s({
     imagesLength: null,

@@ -169,7 +169,7 @@
     }
 
     .mobile__landscape--content p[data-v-4d6a0aa6] {
-        font-family: haas-regular,sans-serif;
+        font-family: haas-regular ,sans-serif;
         font-size: 14px;
         line-height: 16.8px;
         margin-top: 10px;

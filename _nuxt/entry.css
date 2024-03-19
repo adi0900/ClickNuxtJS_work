@@ -47,25 +47,25 @@ html {
 @font-face {
     font-display: swap;
     font-family: editorial-regular;
-    src: url(./editorial-regular.6e18de18.woff) format("woff"),url(./editorial-regular.8920e5fb.woff2) format("woff2")
+    src: url(/_nuxt/haas-regular.ad0b35a9.woff) format("woff"),url(/_nuxt/haas-regular.ad0b35a9.woff) format("woff2")
 }
 
 @font-face {
     font-display: swap;
     font-family: editorial-ultralight;
-    src: url(./editorial-ultralight.6700f24f.woff) format("woff"),url(./editorial-ultralight.6e60a562.woff2) format("woff2")
+    src: url(/_nuxt/editorial-ultralight.6700f24f.woff) format("woff"),url(/_nuxt/editorial-ultralight.6700f24f.woff) format("woff2")
 }
 
 @font-face {
     font-display: swap;
     font-family: editorial-thin;
-    src: url(./editorial-thin.8c3bb4c5.woff) format("woff"),url(./editorial-thin.bff18bbd.woff2) format("woff2")
+    src: url(/_nuxt/editorial-thin.8c3bb4c5.woff) format("woff"),url(/_nuxt/editorial-thin.8c3bb4c5.woff) format("woff2")
 }
 
 @font-face {
     font-display: swap;
     font-family: haas-regular;
-    src: url(./haas-regular.ad0b35a9.woff) format("woff"),url(./haas-regular.0a3370e6.woff2) format("woff2")
+    src: url(/_nuxt/haas-regular.ad0b35a9.woff) format("woff"),url(/_nuxt/haas-regular.ad0b35a9.woff) format("woff2")
 }
 
 * {

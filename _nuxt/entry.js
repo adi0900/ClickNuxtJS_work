@@ -7488,7 +7488,7 @@ const Ts = ()=>{
     meta: {},
     alias: [],
     redirect: void 0,
-    component: ()=>mo(()=>import("./about.9ea3ff7a.js"), ["./about.9ea3ff7a.js", "./star-volt.c94937de.js", "./stickerPhysics.ca2c1524.js", "./_commonjsHelpers.042e6b4d.js", "./_plugin-vue_export-helper.9c4d1f6f.js", "./state.f08776a3.js", "./about.867f558a.css"], import.meta.url).then(t=>t.default || t)
+    component: ()=>mo(()=>import("./about.9ea3ff7a.js"), ["./about.9ea3ff7a.js", "./star-volt.c94937de.js", "./stickerPhysics.ca2c1524.js", "./_commonjsHelpers.042e6b4d.js", "./_plugin-vue_export-helper.9c4d1f6f.js", "/_nuxt/state.js", "./about.867f558a.css"], import.meta.url).then(t=>t.default || t)
 }, {
     name: "index",
     path: "/",
@@ -7496,7 +7496,7 @@ const Ts = ()=>{
     meta: {},
     alias: [],
     redirect: void 0,
-    component: ()=>mo(()=>import("./index.178e4001.js"), ["./index.178e4001.js", "./Marquee.79503d5b.js", "./_commonjsHelpers.042e6b4d.js", "./_plugin-vue_export-helper.9c4d1f6f.js", "./state.f08776a3.js", "./stickerPhysics.ca2c1524.js", "./index.594cd25d.css"], import.meta.url).then(t=>t.default || t)
+    component: ()=>mo(()=>import("./index.178e4001.js"), ["./index.178e4001.js", "./Marquee.79503d5b.js", "./_commonjsHelpers.042e6b4d.js", "./_plugin-vue_export-helper.9c4d1f6f.js", "/_nuxt/state.js", "./stickerPhysics.ca2c1524.js", "./index.594cd25d.css"], import.meta.url).then(t=>t.default || t)
 }]
   , Tb = {
     scrollBehavior(t, e, n) {
@@ -7709,7 +7709,7 @@ const Ab = Kr(async t=>{
 }
 )
   , ji = {
-    default: ()=>mo(()=>import("./default.3d2a488b.js"), ["./default.3d2a488b.js", "./state.f08776a3.js", "./menu_background.45014cc4.js", "./_plugin-vue_export-helper.9c4d1f6f.js", "./star-volt.c94937de.js", "./default.b9d9637e.css"], import.meta.url).then(t=>t.default || t)
+    default: ()=>mo(()=>import("./default.3d2a488b.js"), ["./default.3d2a488b.js", "/_nuxt/state.js", "./menubackground.js", "./_plugin-vue_export-helper.9c4d1f6f.js", "./star-volt.c94937de.js", "./default.b9d9637e.css"], import.meta.url).then(t=>t.default || t)
 }
   , Ob = Kr(()=>{
     const t = ut()
@@ -16012,7 +16012,7 @@ ir)
   , sd = {
     __name: "nuxt-root",
     setup(t) {
-        const e = c0(()=>mo(()=>import("./error-component.ea45b74d.js"), ["./error-component.ea45b74d.js", "./menu_background.45014cc4.js", "./Marquee.79503d5b.js", "./_commonjsHelpers.042e6b4d.js", "./_plugin-vue_export-helper.9c4d1f6f.js", "./error-component.e9fdafbe.css"], import.meta.url).then(a=>a.default || a))
+        const e = c0(()=>mo(()=>import("./error-component.ea45b74d.js"), ["./error-component.ea45b74d.js", "./menubackground.js", "./Marquee.79503d5b.js", "./_commonjsHelpers.042e6b4d.js", "./_plugin-vue_export-helper.9c4d1f6f.js", "./error-component.e9fdafbe.css"], import.meta.url).then(a=>a.default || a))
           , n = ()=>null
           , r = ut()
           , i = r.deferHydration();
